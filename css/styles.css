@@ -1,8 +1,120 @@
 * {
-font-family: 'Roboto', san-serif;
+    font-family: 'Roboto', san-serif;
+    box-sizing: border-box;
+}
+
+body {
+    color: #7F7F7F;
+    background-color: gray;
+    margin: 0 auto;
+
+}
+
+.header {
+    background-color: #FAFAFA;
+    text-align: center; 
+    padding: 30px 0;
+}
+
+
+.about-me,
+.change-color {
+    background-color: #FAFAFA;
+    font-size: 1em;
+    word-spacing: 2px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+.center-text {
+    padding: 0 20px;
+}
+
+.section {
+    background-color: #fff;
+    font-size: 1em;
+    word-spacing: 2px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.portfolio-size {
+    font-size: 1em;
+    font-weight: bolder;
+    margin: 0;
+    padding: 35px 0;
+}
+
+.student-name {
+    color: #4A4A4A;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 20px;
 }
 
 h1 {
-color: green;
+    color: #4A4A4A;
+    font-size: 1.15em;
+    font-weight: lighter;
 
 }
+
+img {
+    width: 300px;
+    height: 170px;
+}
+
+.icon {
+    width: 230px;
+    height: 150px;
+}
+
+
+ul {
+    padding: 0;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0 10px;
+    list-style-type: none;
+    justify-content: left;
+}
+
+li {
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+li a {
+    display: flex;
+    color: #4A4A4A;
+    text-decoration: none;
+    justify-content: center;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.direction {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.right {
+    text-transform: uppercase;
+}
+
+
+
+/* ========================
+    Media Queries
+=========================== */
+
+@media (min-width: 768px) {}
