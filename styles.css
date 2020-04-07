@@ -80,7 +80,6 @@ a:hover {
 }
 
 
-
 section {
     box-sizing: border-box;
 }
@@ -124,6 +123,22 @@ p strong {
 .footerNav {
     display: none;
 }
+
+.backToTop {
+    padding: 20px;
+}
+
+.backToTop a {
+    text-decoration: none;
+    color: #005B96;
+    padding: 0;
+}
+
+.nameTag {
+    padding: 20px;
+}
+
+ 
 
 /* ========================
     Media Queries
@@ -190,6 +205,11 @@ p strong {
         font-weight: 300;
     }
 
+    footer p {
+       padding: 0;
+       max-height: 70px;
+   }
+
     h1 {
         font-weight: 400;
     }
@@ -228,7 +248,7 @@ p strong {
         margin: 20px;
     }
 
-    .container section {
+    #portfolio section {
         width: 33.3%;
         float: left;
         padding: 10px;
